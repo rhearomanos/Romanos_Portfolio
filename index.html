@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo"><span>WEBSITE PORTFOLIO</span></h2>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-btn">☰</div>
+    </nav>
+</header>
+
+<section id="home" class="hero reveal">
+    <div class="hero-content">
+        <h1>Hello, I'm <span>Rhea Romanos</span></h1>
+        <p class="hero-sub">A Passionate BSIT Student & Web Developer</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </div>
+
+    <div class="hero-img-wrapper">
+        <img src="image.jpg" class="hero-img" alt="My Photo">
+    </div>
+</section>
+
+<section id="about" class="about reveal">
+    <h2 class="section-title"><span>About Me</span></h2>
+
+    <div class="about-container">
+        <div class="about-card">
+
+            <img src="image.jpg" alt="Profile Photo" class="about-photo">
+
+            <h3 class="about-name">Rhea Romanos</h3>
+            <p class="about-role">BSIT Student • Web Developer • Designer</p>
+
+            <p class="about-text">
+                I am Rhea I. Romanos, a 3rd Year BSIT Student in Bohol Island State University-Balilihan Campus.
+                I believe that learning takes time, and I’m proud of every small progress I make.
+
+                Even though I’m still developing my skills, I put effort, detail, and creativity into everything I do.
+                My goal is to continue learning, exploring new techniques, and becoming a better developer day by day.
+
+                I create simple websites and designs, and every project I make helps me understand more about HTML, CSS,
+                JavaScript, and how real web development works.
+
+                I am passionate about building modern, responsive, and visually appealing websites.
+            </p>
+
+            <h4 class="skills-title"><span>My Skills</span></h4>
+
+            <div class="skills-grid">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Web Development</span>
+                <span class="skill">UI/UX Design</span>
+                <span class="skill">Responsive Design</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="logo.jpg" alt="Project Image">
+            <h3>Logo Design</h3>
+            <p>A custom logo design showcasing modern style and clean branding.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="Business Card.jpg" alt="Project Image">
+            <h3>Business Card</h3>
+            <p>Professional card layout showing identity, branding, and clean layout.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="Manipulation_Design.jpg" alt="Project Image">
+            <h3>Photo Manipulation</h3>
+            <p>A creative digital artwork using advanced editing and composition.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact reveal">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-container">
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+    </div>
+
+    <p class="form-msg"></p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
